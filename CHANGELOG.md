@@ -2,6 +2,18 @@
 
 All notable changes to `homebridge-config-ui-x` will be documented in this file. This project tries to adhere to [Semantic Versioning](http://semver.org/).
 
+## NEXT
+
+### Other Changes
+
+- update `angular`from `v15` to `v17`
+
+### Homebridge Dependencies
+
+- `@homebridge/hap-client` @ `v2.0.2-beta.0`
+- `@homebridge/node-pty-prebuilt-multiarch` @ `v0.11.14`
+- `@homebridge/plugin-ui-utils` @ `v1.0.3`
+
 ## ALPHA
 
 ### UI Changes
