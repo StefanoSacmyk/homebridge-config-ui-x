@@ -7,22 +7,11 @@ All notable changes to `homebridge-config-ui-x` will be documented in this file.
 ### UI Changes
 
 - updated menu and sidebar
-- updated menu and sidebar fixes
-- update support links with descriptions
-- updated menu and sidebar fixes 2
 - improve menu accessibility + power options own page
-- visual issue when updating disabled plugin w. no changelog
 - allow extra configuration on child bridges
-- fix power options white background in dark mode
-- remove more info link from plugin donate modal
-- updates to restart screen
 - add theme setting to main page
-- ui code refactoring
 - add language setting to main page
-- ui styling
-- accessibility improvements
 - update bridge settings + main settings page
-- match json config title
 
 ### Other Changes
 
@@ -56,14 +45,19 @@ All notable changes to `homebridge-config-ui-x` will be documented in this file.
 - updates to `uk` language file (@xrust83)
 - add `log.maxSize`/`log.truncateSize` options (#2161) (@tjenkinson)
 - fix missing translation string in setup wizard
+- various ui improvements and code consistency
+- offer more info about behaviour when disabling a plugin (on disable plugin modal)
 
 ### UI Fixes
 
 - fix html parts in `ca`, `fr` + `sl` language files
+- update name of `mobile-web-app-capable` meta tag (from `apple-mobile-web-app-capable`)
 
 ### Other Changes
 
 - remove unused language strings from i18n files
+- rename instances of `BatteryService` to `Battery`
+- update `@ngx-translate/core` and `angular-gridster2`
 
 ### Homebridge Dependencies
 
